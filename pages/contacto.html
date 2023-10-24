@@ -34,17 +34,12 @@
           <div class="collapse navbar-collapse" id="menuRollingBank">
             <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
               <li class="nav-item">
-                <a
-                  class="nav-link"
-                  aria-current="page"
-                  href="../index.html"
+                <a class="nav-link" aria-current="page" href="../index.html"
                   >Inicio</a
                 >
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="./quienesSomos.html"
-                  >Quienes Somos</a
-                >
+                <a class="nav-link" href="./quienesSomos.html">Quienes Somos</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="./precios.html">Precios</a>
@@ -58,7 +53,7 @@
                 >
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="./contacto.html">Contacto</a>
+                <a class="nav-link active" href="./contacto.html">Contacto</a>
               </li>
             </ul>
           </div>
@@ -66,7 +61,88 @@
       </nav>
     </header>
 
-    <main></main>
+    <main>
+      <div class="container-fluid bg-primary text-light text-center p-5">
+        <h1 class="display-5">Contactate con nosotros</h1>
+        <p class="lead">Dejanos tu consulta!</p>
+      </div>
+      <section class="container my-5">
+        <article class="row">
+          <div class="col-md-6 text-center mb-3">
+            <img
+              src="../img/contacto.webp"
+              alt="pareja consultando en RollingBank"
+              class="img-fluid"
+            />
+          </div>
+          <div class="col-md-6">
+            <form>
+              <div class="mb-3">
+                <label for="nombreApellido" class="form-label"
+                  >Nombre y Apellido</label
+                >
+                <input
+                  type="text"
+                  class="form-control"
+                  placeholder="ej: Juan Perez"
+                  id="nombreApellido"
+                />
+              </div>
+              <div class="mb-3">
+                <label for="exampleFormConpaistrolInput1" class="form-label"
+                  >Pais</label
+                >
+                <input
+                  type="text"
+                  class="form-control"
+                  placeholder="Ej: Argentina"
+                  id="pais"
+                />
+              </div>
+              <div class="mb-3">
+                <label for="provincia" class="form-label"
+                  >Provincia o Estado</label
+                >
+                <input
+                  type="text"
+                  class="form-control"
+                  placeholder="Ej: Tucumán"
+                  id="provincia"
+                />
+              </div>
+              <div class="mb-3">
+                <label for="email" class="form-label">Email</label>
+                <input
+                  type="email"
+                  class="form-control"
+                  placeholder="Ej: juanperez@example.com"
+                  id="email"
+                />
+              </div>
+              <div class="mb-3">
+                <label for="telefono" class="form-label">Teléfono</label>
+                <input
+                  type="tel"
+                  class="form-control"
+                  placeholder="3815333000"
+                  id="telefono"
+                />
+              </div>
+              <div class="mb-3">
+                <label for="consulta" class="form-label">Consulta</label>
+                <textarea
+                  class="form-control"
+                  id="consulta"
+                  rows="3"
+                  placeholder="agregue aqui su consulta"
+                ></textarea>
+              </div>
+              <button class="btn btn-primary" type="submit">Enviar</button>
+            </form>
+          </div>
+        </article>
+      </section>
+    </main>
 
     <footer class="py-5 bg-dark text-secondary text-lg-start text-center">
       <div class="container">
