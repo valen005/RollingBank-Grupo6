@@ -1,6 +1,12 @@
-@import url("https://fonts.googleapis.com/css2?family=Changa:wght@700&display=swap");
-/* footer  */
-.logoRB {
+
+  @import url("https://fonts.googleapis.com/css2?family=Changa:wght@700&display=swap");
+ /* navbar y footer */
+ .logoRB {
     font-family: "Changa", sans-serif;
     font-size: 30px;
   }
+  /* inicio  */
+  
+  .cardPrincipal{
+    width: 350px;
+}
