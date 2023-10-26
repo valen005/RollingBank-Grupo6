@@ -5,8 +5,15 @@
     font-family: "Changa", sans-serif;
     font-size: 30px;
   }
+
+ /* carrusel  */
+  .imgCarrusel {
+    height: 560px;
+    object-fit: cover;
+  }
+
   /* inicio  */
   
   .cardPrincipal{
     width: 350px;
-}
+
