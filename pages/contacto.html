@@ -16,11 +16,196 @@
     <title>RollingBank</title>
   </head>
   <body>
-    <header></header>
+    <header>
+      <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container">
+          <a class="navbar-brand logoRB" href="../index.html">RollingBank</a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#menuRollingBank"
+            aria-controls="menuRollingBank"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="menuRollingBank">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="../index.html"
+                  >Inicio</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./quienesSomos.html">Quienes Somos</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./precios.html">Precios</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./seguridad.html">Seguridad</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./roboExtravio.html"
+                  >Robo o Extravio</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" href="./contacto.html">Contacto</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
 
-    <main></main>
+    <main>
+      <div class="container-fluid bg-primary text-light text-center p-5">
+        <h1 class="display-5">Contactate con nosotros</h1>
+        <p class="lead">Dejanos tu consulta!</p>
+      </div>
+      <section class="container my-5">
+        <article class="row">
+          <div class="col-md-6 text-center mb-3">
+            <img
+              src="../img/contacto.webp"
+              alt="pareja consultando en RollingBank"
+              class="img-fluid"
+            />
+          </div>
+          <div class="col-md-6">
+            <form>
+              <div class="mb-3">
+                <label for="nombreApellido" class="form-label"
+                  >Nombre y Apellido</label
+                >
+                <input
+                  type="text"
+                  class="form-control"
+                  placeholder="ej: Juan Perez"
+                  id="nombreApellido"
+                />
+              </div>
+              <div class="mb-3">
+                <label for="exampleFormConpaistrolInput1" class="form-label"
+                  >Pais</label
+                >
+                <input
+                  type="text"
+                  class="form-control"
+                  placeholder="Ej: Argentina"
+                  id="pais"
+                />
+              </div>
+              <div class="mb-3">
+                <label for="provincia" class="form-label"
+                  >Provincia o Estado</label
+                >
+                <input
+                  type="text"
+                  class="form-control"
+                  placeholder="Ej: Tucumán"
+                  id="provincia"
+                />
+              </div>
+              <div class="mb-3">
+                <label for="email" class="form-label">Email</label>
+                <input
+                  type="email"
+                  class="form-control"
+                  placeholder="Ej: juanperez@example.com"
+                  id="email"
+                />
+              </div>
+              <div class="mb-3">
+                <label for="telefono" class="form-label">Teléfono</label>
+                <input
+                  type="tel"
+                  class="form-control"
+                  placeholder="3815333000"
+                  id="telefono"
+                />
+              </div>
+              <div class="mb-3">
+                <label for="consulta" class="form-label">Consulta</label>
+                <textarea
+                  class="form-control"
+                  id="consulta"
+                  rows="3"
+                  placeholder="agregue aqui su consulta"
+                ></textarea>
+              </div>
+              <button class="btn btn-primary" type="submit">Enviar</button>
+            </form>
+          </div>
+        </article>
+      </section>
+    </main>
 
-    <footer></footer>
+    <footer class="py-5 bg-dark text-secondary text-lg-start text-center">
+      <div class="container">
+        <div
+          class="d-lg-flex justify-content-lg-start justify-content-md-center"
+        >
+          <p class="logoRB">RollingBank</p>
+          <div class="mx-2 pt-2">
+            <a href="./error404.html"
+              ><i class="bi bi-facebook mx-1 text-secondary"></i
+            ></a>
+            <a href="./error404.html"
+              ><i class="bi bi-instagram mx-1 text-secondary"></i
+            ></a>
+            <a href="./error404.html"
+              ><i class="bi bi-twitter-x mx-1 text-secondary"></i
+            ></a>
+          </div>
+        </div>
+        <section class="d-flex row mt-2">
+          <article class="col-12 col-lg-3 col-md-6">
+            <h5>Navegación</h5>
+            <ul class="list-unstyled">
+              <li><u>¿Quienes somos?</u></li>
+              <li><u>Precios</u></li>
+              <li><u>Seguridad</u></li>
+              <li><u>Ayuda</u></li>
+              <li><u>Robo o Extravio</u></li>
+            </ul>
+          </article>
+          <article class="list-unstyled col-12 col-lg-3 col-md-6">
+            <h5>Legales</h5>
+            <li><u>Regimen de transparencia</u></li>
+            <li><u>Usuario bancario</u></li>
+            <li><u>Conducta bancaria</u></li>
+            <li><u>Estados contables</u></li>
+            <li><u>Terminos y Condiciones</u></li>
+          </article>
+          <a href="./error404.html" class="col-12 col-lg-3 col-md-6 my-3">
+            <img
+              src="../img/usuariosfinancieros.png"
+              width="200px"
+              alt="Usuarios Financieros, visita nuestra página web"
+            />
+          </a>
+          <article class="col-12 col-lg-3 col-md-6">
+            <h5>Unite</h5>
+            <a href="./error404.html"
+              ><img
+                src="../img/badge-apple-store.svg"
+                alt="Link Apple Store"
+                class="my-2"
+            /></a>
+            <a href="./error404.html"
+              ><img
+                src="../img/google-play-badge-bb.svg"
+                alt="Link Play Store"
+                class="my-2"
+            /></a>
+          </article>
+        </section>
+      </div>
+    </footer>
 
     <script src="../js/bootstrap.min.js"></script>
   </body>
