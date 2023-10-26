@@ -1,0 +1,21 @@
+
+
+img{
+    width: 50%;
+}
+.continer{ 
+     height: center;
+    display: flex;
+    flex-direction:column; 
+    gap: 0px;
+    align-items: center;
+    justify-content: center;
+}
+.boton-1{
+padding: 10px 20px;
+border-radius: 15px;
+border: none;
+background: rgb(5, 171, 201);
+color: aliceblue;
+text-decoration: none;
+}
